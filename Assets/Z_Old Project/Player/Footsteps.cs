@@ -18,7 +18,6 @@ public class Footsteps : MonoBehaviour {
         RaycastHit hit;
         ray = new Ray(transform.position, -PController.Instance.myNormal);
         if (Physics.Raycast(ray, out hit, 1.3f)) {
-            Debug.Log("hit");
             ground = true;
         } else {
             ground = false;
