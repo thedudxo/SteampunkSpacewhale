@@ -43,7 +43,7 @@ MonoBehaviour:
     max: 1500
   minimumVelocity:
     m_OverrideState: 1
-    m_Value: 16.4
+    m_Value: 31.2
     min: 0
     max: 64
   cameraRotationVelocityClamp:
