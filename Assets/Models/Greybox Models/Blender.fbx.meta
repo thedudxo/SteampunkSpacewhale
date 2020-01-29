@@ -3,7 +3,22 @@ guid: e1fc061a1532a4b4a8eee174c7f098f2
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalicCircleTrimsheet_01
+    second: {fileID: 2100000, guid: 3c1f27e9808e54f43a1544991ceabb41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalicTrimsheet_01
+    second: {fileID: 2100000, guid: 1bbb7b39f4c680d4d8d306f7efd59262, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SteelGrunge_Tile_01
+    second: {fileID: 2100000, guid: 04b6d328b5413f04492108d97deb5f57, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -44,7 +59,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
