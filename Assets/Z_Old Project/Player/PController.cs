@@ -56,17 +56,22 @@ public class PController : MonoBehaviour {
     }
 
     void FixedUpdate() {
+
         Debug.DrawRay(transform.position, -myNormal * jumpLimit, Color.blue);
         if (Respawn.dead) { return; }
+
         // apply constant weight force according to character normal:
         rb = GetComponent<Rigidbody>();
         rb.AddForce(-gravity * rb.mass * myNormal);
         myNormal = Vector3.Lerp(myNormal, surfaceNormal, lerpSpeed * Time.deltaTime);
+
         // find forward direction with new myNormal:
         var myForward = Vector3.Cross(transform.right, myNormal);
+
         // align character to the new myNormal while keeping the forward direction:
         var targetRot = Quaternion.LookRotation(myForward, myNormal);
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRot, lerpSpeed * Time.deltaTime);
+
         // move the character
         transform.Translate(Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime, 0, Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime);
         if (jumping) { return; } // abort Update while jumping to a wall
@@ -78,6 +83,7 @@ public class PController : MonoBehaviour {
         }
         Ray ray;
         RaycastHit hit;
+
         // update surface normal and isGrounded:
         ray = new Ray(transform.position, -myNormal); // cast ray downwards
         if (nope)
