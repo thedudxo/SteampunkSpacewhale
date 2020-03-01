@@ -32,9 +32,12 @@ public class Interact : MonoBehaviour {
                 {
                     if (interactee.tag == "lever1") //rotate the thinggy
                     {
+                        Debug.Log("eee");
                         animator.SetTrigger("Lever");
                         RotatingPlatform.Rotate();
-                        
+                        interactee.GetComponent<Interactable>().Interact();
+
+
                     }
                 }
             }
