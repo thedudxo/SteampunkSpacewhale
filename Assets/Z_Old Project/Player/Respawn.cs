@@ -20,13 +20,13 @@ public class Respawn : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        deadText.SetActive(dead);
+        if(deadText) deadText.SetActive(dead);
         if (Input.GetKey(respawnKey))
         {
             dead = false;
             currentCheckpoint.GetComponent<Checkpoint>().UseCheckpoint(gameObject);
             PController.Instance.surfaceNormal = Vector3.up;
-            deadScreen.SetActive(false);
+            if (deadScreen) deadScreen.SetActive(false);
             GetComponent<Rigidbody>().velocity = Vector3.zero;
         }
     }
