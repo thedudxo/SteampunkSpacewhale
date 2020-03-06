@@ -3,7 +3,37 @@ guid: 7dd9958581c601a45a681d7d6bfdc404
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alumninimiiminiminm
+    second: {fileID: 2100000, guid: bcde712db97df7f49a0d934b8ce27050, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CatwalkMesh
+    second: {fileID: 2100000, guid: d97c65670e609a24d8b50f36556f959d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Copper
+    second: {fileID: 2100000, guid: 6026e4f313426d24aa0add188ae2daa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: d4bcb04ee0b7a4d46b749f028cb04f41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel
+    second: {fileID: 2100000, guid: 04b6d328b5413f04492108d97deb5f57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Weaved_Iron
+    second: {fileID: 2100000, guid: 35db7ba551a808241be603d43851c5b4, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
