@@ -9,6 +9,36 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Bronze
     second: {fileID: 2100000, guid: 83c136f69b2509e4ab64533f8fe75ea4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CatwalkMesh
+    second: {fileID: 2100000, guid: d97c65670e609a24d8b50f36556f959d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Copper
+    second: {fileID: 2100000, guid: 6026e4f313426d24aa0add188ae2daa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IronDiamond
+    second: {fileID: 2100000, guid: 0804d5175ff6f824aace14a2978142c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IronRough
+    second: {fileID: 2100000, guid: 5530973ecddc468409f5346d1ca3e293, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel
+    second: {fileID: 2100000, guid: 04b6d328b5413f04492108d97deb5f57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 04b6d328b5413f04492108d97deb5f57, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
