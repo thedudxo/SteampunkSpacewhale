@@ -22,6 +22,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Corrugated_Iron
+    second: {fileID: 2100000, guid: 9580c88b4b25a3f46b18807d858adb01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: IronDiamond
     second: {fileID: 2100000, guid: 0804d5175ff6f824aace14a2978142c0, type: 2}
   - first:
