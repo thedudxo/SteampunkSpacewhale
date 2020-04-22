@@ -29,6 +29,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Steel
     second: {fileID: 2100000, guid: 04b6d328b5413f04492108d97deb5f57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel02
+    second: {fileID: 2100000, guid: c1480745d9582954a96f4542891d46ae, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
