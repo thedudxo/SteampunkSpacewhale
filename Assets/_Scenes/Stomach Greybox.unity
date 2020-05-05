@@ -4107,8 +4107,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 925393191}
-  m_LocalRotation: {x: 0.033762068, y: 0.9324534, z: -0.06356635, w: 0.35404825}
-  m_LocalPosition: {x: 13.978102, y: 1.661754, z: -42.770332}
+  m_LocalRotation: {x: -0.03173606, y: -0.97610086, z: 0.16837005, w: -0.13368413}
+  m_LocalPosition: {x: 3.4652443, y: 15.0142975, z: -4.952759}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8470,7 +8470,7 @@ PrefabInstance:
     - target: {fileID: 8992285740802530498, guid: aba190add5fbdfc4095302f8998a56fd,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 9152288009651167248, guid: aba190add5fbdfc4095302f8998a56fd,
         type: 3}
@@ -12949,7 +12949,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 4f7b914c27834104ba743f0884c6b182,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -898727515897104730, guid: 4f7b914c27834104ba743f0884c6b182,
         type: 3}
@@ -15142,6 +15142,11 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: -3260783288054246900, guid: 46b918de18fa75743911263690ac7c90,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 51ae57beedb01e84dadae069d58ccd2a, type: 2}
     - target: {fileID: -3187034665716713483, guid: 46b918de18fa75743911263690ac7c90,
         type: 3}
       propertyPath: m_StaticEditorFlags
