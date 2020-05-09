@@ -17,6 +17,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: CatwalkMesh03
+    second: {fileID: 2100000, guid: 51ae57beedb01e84dadae069d58ccd2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: IronDiamond
     second: {fileID: 2100000, guid: 0804d5175ff6f824aace14a2978142c0, type: 2}
   - first:
