@@ -3,7 +3,17 @@ guid: 18a23492897a3db4fb9f638388212b38
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Copper
+    second: {fileID: 2100000, guid: 6026e4f313426d24aa0add188ae2daa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShipHull01
+    second: {fileID: 2100000, guid: c29c397259b0f4142b1a652b7e16f265, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

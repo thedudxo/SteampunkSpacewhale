@@ -13,6 +13,8 @@ public class Catwalk : MonoBehaviour, IResetable  {
     private Quaternion startRot;
     private Vector3 startScale;
 
+    [SerializeField] float stopAtY;
+
     public AudioSource fall;
 
     // Use this for initialization
@@ -30,7 +32,7 @@ public class Catwalk : MonoBehaviour, IResetable  {
             transform.position = new Vector3(transform.position.x, transform.position.y - currentFallingSpeed, transform.position.z);
             currentFallingSpeed += acceleration;
         }
-        if(transform.localPosition.y <= -6.4f) {
+        if(transform.localPosition.y <= stopAtY) {
             falling = false;
             fall.Stop();
         }
