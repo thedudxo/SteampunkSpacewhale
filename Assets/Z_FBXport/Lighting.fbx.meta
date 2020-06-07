@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: 7225958aa1bdc7f4d850801d2a00f48e
+guid: e318c93f79259e64ead1efe4d607c4f0
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: CatwalkMesh03
-    second: {fileID: 2100000, guid: 51ae57beedb01e84dadae069d58ccd2a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Corrugated_Iron
-    second: {fileID: 2100000, guid: 9580c88b4b25a3f46b18807d858adb01, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -54,7 +44,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
