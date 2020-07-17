@@ -3,7 +3,32 @@ guid: 4f7b914c27834104ba743f0884c6b182
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corrugated_Iron
+    second: {fileID: 2100000, guid: 9580c88b4b25a3f46b18807d858adb01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IronDiamond
+    second: {fileID: 2100000, guid: 0804d5175ff6f824aace14a2978142c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rivets_Decals
+    second: {fileID: 2100000, guid: 8c0990e8b69398c4d836cd81547df99b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel
+    second: {fileID: 2100000, guid: 04b6d328b5413f04492108d97deb5f57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel_Cut
+    second: {fileID: 2100000, guid: ea3673bab36c69d45bc1b520a5cfdd8e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
