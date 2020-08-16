@@ -7,13 +7,48 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Bronze
+    second: {fileID: 2100000, guid: 4a14e9a1639088c408bec88ec031a8d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Copper
     second: {fileID: 2100000, guid: 6026e4f313426d24aa0add188ae2daa0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Corrugated_Iron
+    second: {fileID: 2100000, guid: 9580c88b4b25a3f46b18807d858adb01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IronDiamond
+    second: {fileID: 2100000, guid: 0804d5175ff6f824aace14a2978142c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rivets_Decals
+    second: {fileID: 2100000, guid: 8c0990e8b69398c4d836cd81547df99b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Steel
     second: {fileID: 2100000, guid: 0a7c20be5d7a171428a5988e2d744406, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel02
+    second: {fileID: 2100000, guid: c1480745d9582954a96f4542891d46ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel_Cut
+    second: {fileID: 2100000, guid: ea3673bab36c69d45bc1b520a5cfdd8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: d4bcb04ee0b7a4d46b749f028cb04f41, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
