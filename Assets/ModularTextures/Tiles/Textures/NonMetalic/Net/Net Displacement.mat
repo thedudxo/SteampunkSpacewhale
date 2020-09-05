@@ -34,7 +34,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
         m_Texture: {fileID: 2800000, guid: 7ae4cfbe0ef15ff4085cd15d07db17fa, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BentNormalMap:
         m_Texture: {fileID: 0}
@@ -167,16 +167,16 @@ Material:
     - _EnableSpecularOcclusion: 0
     - _EnergyConservingSpecularColor: 1
     - _HdrpVersion: 2
-    - _HeightAmplitude: 0.032
+    - _HeightAmplitude: 0.049999997
     - _HeightCenter: 1
     - _HeightMapParametrization: 0
     - _HeightMax: 1
     - _HeightMin: -1
     - _HeightOffset: 0
-    - _HeightPoMAmplitude: 3.2
+    - _HeightPoMAmplitude: 5
     - _HeightTessAmplitude: 2
     - _HeightTessCenter: 0.5
-    - _InvTilingScale: 0.5
+    - _InvTilingScale: 1
     - _Ior: 1
     - _IridescenceMask: 1
     - _IridescenceThickness: 1

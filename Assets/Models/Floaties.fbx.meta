@@ -12,8 +12,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Corrugated_Iron
+    second: {fileID: 2100000, guid: 9580c88b4b25a3f46b18807d858adb01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Iron_Cut
+    second: {fileID: 2100000, guid: 01912038559620e4dbb4ee29ede5595a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: RopeGrid
-    second: {fileID: 2100000, guid: 68838369d62e4164483fd87934848770, type: 2}
+    second: {fileID: 2100000, guid: afd5e5bb87d5cf741b5ea4656dfc5684, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel
+    second: {fileID: 2100000, guid: 04b6d328b5413f04492108d97deb5f57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel02
+    second: {fileID: 2100000, guid: c1480745d9582954a96f4542891d46ae, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
